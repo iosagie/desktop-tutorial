@@ -1,0 +1,83 @@
+* {
+    background-color: grey;
+}
+
+h1 {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#description {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.img-div img {
+    display: block;
+}
+
+.frame {
+    background-color: gainsboro;
+    /* width: 1000px;
+    height: 600px; */
+    border: 2px solid black;
+    margin: auto;
+    padding: 30px 30px;
+
+}
+
+#image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-width: 900px;
+    max-width: 1200px; */
+    height: 100%;
+    width: 100%;
+}
+
+figcaption {
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#tribute-info {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+
+ul {
+    margin: auto;
+    text-align: center;
+
+}
+
+ul #tribute-list {
+    display: inline;
+    font-size: 1rem;
+}
+
+/* li{
+    display
+} */
+
+/* #tl-point{
+    text-align: center;
+} */
+
+ul li {
+    margin: 6px;
+}
+
+#tribute-link {
+    text-align: center;
+}
