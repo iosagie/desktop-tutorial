@@ -1,73 +1,83 @@
-*{
+* {
     background-color: grey;
 }
 
-h1{
-    font-family: 'League Gothic', sans-serif;  
+h1 {
+    font-family: 'League Gothic', sans-serif;
     font-size: 5rem;
     font-weight: 400;
     text-align: center;
 }
-#description{
+
+#description {
     font-size: 1.5rem;
     text-align: center;
 }
 
 
-.img-div img{
+.img-div img {
     display: block;
 }
-.frame{
+
+.frame {
     background-color: gainsboro;
-    width: 1000px;
-    height: 600px;
+    /* width: 1000px;
+    height: 600px; */
     border: 2px solid black;
     margin: auto;
     padding: 30px 30px;
-    
+
 }
-#image{
+
+#image {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 900px;
-    max-width: 1200px;
+    /* min-width: 900px;
+    max-width: 1200px; */
     height: 100%;
     width: 100%;
 }
 
-figcaption{
+figcaption {
     background-color: gainsboro;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 200;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#tribute-info{
+
+#tribute-info {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
     font-family: Georgia, Times, 'Times New Roman', serif;
 
 }
-ul{
+
+ul {
     margin: auto;
     text-align: center;
 
 }
-ul #tribute-list{
-display: inline;
-font-size: 1rem;
+
+ul #tribute-list {
+    display: inline;
+    font-size: 1rem;
 }
-li{
+
+/* li{
     display
-}
+} */
+
 /* #tl-point{
     text-align: center;
 } */
-ul li{
+
+ul li {
     margin: 6px;
 }
-#tribute-link{
+
+#tribute-link {
     text-align: center;
 }
